@@ -1862,8 +1862,7 @@ button.button {
   @media (max-width: 900px) {
     .nav-01 {
       position: fixed;
-      padding: 10px 0;
-      background-color: #303030; } }
+      padding: 10px 0; } }
 
 .nav-01__box {
   display: flex;
@@ -1883,8 +1882,9 @@ button.button {
 
 .nav-01__logo_img {
   vertical-align: middle;
-  max-height: 30px;
-  margin-right: 10px; }
+  max-height: 50px;
+  margin-right: 10px;
+  filter: invert(1); }
 
 .nav-01__logo_text {
   vertical-align: middle;
@@ -3501,6 +3501,7 @@ button.button {
   text-align: center; }
 
 .photos-02__img_box {
+  padding-top: 50px;
   text-align: center; }
 
 .photos-02__img {
@@ -8877,7 +8878,9 @@ button.button {
   opacity: 0.6; }
 
 .footer-01 {
-  background-color: #F6F6F6; }
+  background-color: black;
+  height: 100px;
+  margin-top: -10px; }
 
 .footer-01__wrapper {
   display: flex;
@@ -9207,7 +9210,10 @@ button.button {
 .text--02 {
   overflow: hidden;
   padding: 70px 0 100px;
-  background-color: #9474f1; }
+  /* background-color: #9474f1; */
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(148,116,241,1) 32%, rgba(148,116,241,1) 94%, rgba(255,255,255,1) 100%);
+  padding-top: 150px;
+}
 
 .text--02__box {
   position: relative; }
