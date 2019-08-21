@@ -10393,7 +10393,7 @@ button.button {
   vertical-align: baseline;
   margin-left: 5px;
   font-size: 16px;
-  font-weight: 400; }
+  font-weight: bold; }
 
 .features-02__description {
   margin-top: 50px;
@@ -12576,3 +12576,7 @@ a.pswp__share--download:hover {
 .pswp__bg {
   transition: none !important;
   background-color: rgba(0, 0, 0, 0.8); }
+
+.bold {
+	font-weight: bold;
+}
