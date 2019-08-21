@@ -12580,3 +12580,7 @@ a.pswp__share--download:hover {
 .bold {
 	font-weight: bold;
 }
+
+iframe.embedded {
+	margin-bottom: 100px;
+}
