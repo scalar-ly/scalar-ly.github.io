@@ -1871,7 +1871,11 @@ button.button {
 
 .nav-01__logo {
   position: relative;
-  z-index: 50; }
+  z-index: 50; 
+max-height: 100px;
+overflow: hidden;
+padding: 10px;
+}
 
 .nav-01__link {
   display: inline-block;
@@ -9211,7 +9215,7 @@ button.button {
   overflow: hidden;
   padding: 70px 0 100px;
   /* background-color: #9474f1; */
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(148,116,241,1) 32%, rgba(148,116,241,1) 94%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(148,116,241,1) 100%);
   padding-top: 150px;
 }
 
@@ -12583,4 +12587,13 @@ a.pswp__share--download:hover {
 
 iframe.embedded {
 	margin-bottom: 100px;
+}
+
+#logo-roar-animation {
+    filter: invert(1);
+    width: 200px;
+    margin-left: -77px;
+    margin-right: -50px;
+    margin-top: -32px;
+    margin-bottom: -32px;
 }
