@@ -16,7 +16,7 @@
             <img src="img/logos/TakeoffDB_logo.png" width="140" alt="Logo TakeoffDB">
           </a>
         </nav>
-        
+
         <nav role="navigation" class="nav-bar-right">
           <a href="#product" class="nav-bar-link">
             PRODUCT
@@ -29,7 +29,7 @@
           <a href="https://calendly.com/takeoffdb-scott/call" class="button button-outline nav-bar-link nav-bar-cta">
             REQUEST A DEMO
           </a>
-        </nav>  
+        </nav>
       </div>
     </div>
 
@@ -37,10 +37,10 @@
       <div class="nav-bar-inner">
         <nav class="nav-bar-left">
           <a href="/" class="logo">
-            <img src="img/logos/TakeoffDB_logo.png" width="140" alt="Logo TakeoffDB">
+            <img src="img/logos/TakeoffDB_logo.png" width="140" height="45" alt="Logo TakeoffDB">
           </a>
         </nav>
-        
+
         <nav id="mobile-nav-menu" role="navigation" class="nav-bar-right">
           <a href="#" class="nav-bar-link nav-bar-hamburger">
             <img class="hamburger-icon" src="img/icons/ionicons/hamburger_icon.svg" width="30" alt="Logo TakeoffDB">
@@ -50,22 +50,22 @@
             <a href="#product" class="nav-bar-link">
               PRODUCT
             </a>
-  
+
             <a href="#how-it-works" class="nav-bar-link">
               HOW IT WORKS
             </a>
-  
+
             <a href="https://calendly.com/takeoffdb-scott/call" class="nav-bar-link">
               REQUEST A DEMO
             </a>
           </div>
-        </nav>  
+        </nav>
       </div>
     </div>
 
     <section class="above-fold-container">
       <div class="section-inner">
-        <div class="row"> 
+        <div class="row">
           <div class="col-half">
             <h1>Put your data layer on autopilot.</h1>
             <p class="caption">Automated caching, query optimization and schema management for rocketship businesses.</p>
@@ -87,7 +87,9 @@
           <div class="col-half">
             <div class="benefit-card benefit-card-velocity">
               <h3>Super charge your development velocity</h3>
-              <p class="caption">Stop spending cycles chasing slow queries and dealing with caching issues.</p>
+              <p class="caption">
+                Stop spending cycles chasing slow queries and dealing with caching issues.
+              </p>
             </div>
           </div>
 
@@ -109,7 +111,7 @@
           <div class="col-half">
             <div class="benefit-card benefit-card-database">
               <h3>Keep your database, not your database problems</h3>
-              <p class="caption">TakeoffDB works with your existing database.</p>
+              <p class="caption">TakeoffDB plugs in to your existing database.</p>
             </div>
           </div>
         </div>
@@ -155,7 +157,7 @@
       </div>
     </section>
 
-    <section id="cta">
+    <section id="cta" class="section-slanted">
       <div class="section-inner">
         <h2>See the power</h2>
         <a href="https://calendly.com/takeoffdb-scott/call" class="button">
@@ -163,6 +165,10 @@
         </a>
       </div>
     </section>
+
+    <footer>
+      <p class="caption">Copyright 2020 TakeoffDB</p>
+    </footer>
 
     <script type="text/javascript">
       (function () {
@@ -203,7 +209,7 @@
           }
         };
         const debouncedMaybeUpdateNav = debounce(maybeUpdateNav, 100);
-        
+
         window.addEventListener('scroll', debouncedMaybeUpdateNav);
         window.scrollY < 100 ? desolidify() : solidify();
 
